@@ -1,8 +1,5 @@
 #include <iostream>
-#include <new>
-#include <memory>
-#include <set>
-#include <list>
+
 #ifndef GRAPHS_H
 #define GRAPHS_H
 #endif
