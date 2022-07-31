@@ -8,7 +8,7 @@ struct adjListNode {
 	int value;
 	adjNode* next;
 };
-struct graphEdge {
+struct Edge {
 	int startV, endV, weight;
 };
 struct adjList {
@@ -17,7 +17,7 @@ struct adjList {
 class Graphs {
 public:
 	Graph();
-
+	void InsertEdge(int at, int loc);
 protected:
 	int left;
 	int rigth;
