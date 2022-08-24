@@ -28,10 +28,13 @@ public:
 class AVLTree {
 public:
 	AVLTree();
-	AVLNode* rightleft_rotation(BSTNode*);
-	AVLNode* leftleft_rotation(BSTNode*);
-	AVLNode* leftright_rotation(BSTNode*);
+	int heigth(AVLNode * n);
+	AVLNode* rightleft_rotation(AVLNode*);
+	AVLNode* leftleft_rotation(AVLNode*);
+	AVLNode* leftright_rotation(AVLNode*);
 	AVLNode* rightright_rotation(BSTNode*);
+	AVLNode* balance(AVLNode* t);
+	AVLNode* insert(AVLNode* r, AVLNode v);
 	void display(AVLNode*);
 	void preorder(AVLNode*);
 	void inorder(AVLNode*);
